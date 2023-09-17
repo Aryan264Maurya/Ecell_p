@@ -1,0 +1,52 @@
+/* Setting the base styles for the entire page */
+body {
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    background-color: #f0f0f0; 
+}
+
+/* Styling for the profile container */
+.profile {
+    max-width: 400px; 
+    margin: 0 auto; 
+    padding: 30px; 
+    background-color: #fff; 
+    border-radius: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+/* Styling for images inside the profile container */
+img {
+    max-width: 50%; 
+    border-radius: 20%; 
+}
+
+/* Styling for the main heading */
+h1 {
+    font-size: 24px; 
+    margin-top: 10px; 
+}
+
+/* Styling for paragraphs */
+p {
+    font-size: 18px; 
+    color: #777; 
+}
+
+/* Styling for Instagram button links */
+a.instagram-button {
+    display: inline-block; 
+    padding: 10px 30px; 
+    background-color: #405de6;
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 5px; 
+    font-weight: bold;
+    margin-top: 20px; 
+    transition: background-color 0.3s; 
+}
+
+/* Hover effect for the Instagram button */
+a.instagram-button:hover {
+    background-color: #6a7dd0; 
+}
